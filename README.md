@@ -14,14 +14,18 @@ Additionally, two pre-trained Naive Bays classifiers are included:
 - The "refined-silva-138.2-ssu-nr99-V4V5-classifier.qza" classifier was trained on the V4 region of the 16S rRNA gene to ensure accurate taxonomic classification of amplicon reads generated with the primers 515F (5'-GTGYCAGCMGCCGCGGTAA-3') and 806R (5'-GGACTACNVGGGTWTCTAAT-3').
 
 ```bash
-# Taxonomic classification of the representative ASVs/OTUs with the SILVA classifer
-qiime feature-classifier classify-sklearn --i-classifier refined-silva-138.2-ssu-nr99-V4V5-classifier.qza --i-reads representive-sequences.qza --o-classification taxonomy.qza --p-n-jobs 1 
+# Taxonomic classification of representative ASVs/OTUs from 16S rRNA gene amplicon data using the SILVA classifer
+qiime feature-classifier classify-sklearn --i-classifier refined-silva-138.2-ssu-nr99-V4V5-classifier.qza --i-reads representive-sequences.qza --o-classification taxonomy.qza --p-n-jobs 10
 ```
 
 
 
 # 2. Global amoA gene classifier for QIIME2
 
-The global amoA gene classifier 
+The global amoA gene classifier includes a reference sequence file (amoA-db-rep-seqs.qza) and a taxonomy file (amoA-db-taxonomy.qza) derived from the global amoA gene database. These files can be used to classify amplicon reads generated from amoA gene amplicon sequencing. We suggest using the primers AOA83F64 (5’-GGWGAYTAYATNTTCTAYAC-3’) and AOA518R64 (5’-GGRCTRTTRTAGAAYTTNCC-3’) for amoA gene amplicon sequencing.
 
- 
+```bash
+# Taxonomic classification of representative ASVs/OTUs from amoA gene amplicon data using the amoA gene classifier
+qiime feature-classifier classify-consensus-vsearch --i-query representative-sequences.qza --i-reference-reads amoA-db-rep-seqs.qza --i-reference-taxonomy amoA-db-taxonomy.qza --p-threads 10 --output-dir output-directory
+```
+
