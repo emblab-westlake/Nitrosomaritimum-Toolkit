@@ -31,8 +31,8 @@ qiime feature-classifier classify-consensus-vsearch --i-query representative-seq
 
 # 3. Specific qPCR primer set AOAnm3bF-AOAnm3aR targeting *Nitrosomaritimum* *amoA* genes
 
-AOAnm3bF: 5’-TGGGCTTGGACATCGTTTAC-3’
+Primer AOAnm3bF: 5’-TGGGCTTGGACATCGTTTAC-3’
 
-AOAnm3aR: 5’-AACTGTCATGATRAGGCMGT-3’
+Primer AOAnm3aR: 5’-AACTGTCATGATRAGGCMGT-3’
 
 The thermal cycling program included an initial denaturation at 95℃ for 30s, followed by 40 cycles of 95℃ for 5 s and 50℃ for 30 s.
