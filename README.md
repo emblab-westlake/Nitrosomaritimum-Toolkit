@@ -1,5 +1,5 @@
 # Nitrosomaritimum-Toolbox
-**An integrated framework for detection and quantification of Nitrosomaritimum AOA.**
+**An integrated framework for detection and quantification of *Nitrosomaritimum* AOA.**
 
 # 1. Refined SILVA classifier for QIIME2
 
