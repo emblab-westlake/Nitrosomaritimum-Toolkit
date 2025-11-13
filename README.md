@@ -36,3 +36,9 @@ Primer AOAnm3bF: 5’-TGGGCTTGGACATCGTTTAC-3’
 Primer AOAnm3aR: 5’-AACTGTCATGATRAGGCMGT-3’
 
 The thermal cycling program included an initial denaturation at 95℃ for 30s, followed by 40 cycles of 95℃ for 5 s and 50℃ for 30 s.
+
+# References
+
+Zhao, Z.; Qin, W.; Li, L.; Zhao, H.; Ju, F. Discovery of *Candidatus* Nitrosomaritimum as a New Genus of Ammonia-Oxidizing Archaea Widespread in Anoxic Saltmarsh Intertidal Aquifers. *Environ. Sci. Technol.* **2024**, *58* (36), 16040–16054. https://doi.org/10.1021/acs.est.4c02321.
+
+Alves, R. J. E.; Minh, B. Q.; Urich, T.; Von Haeseler, A.; Schleper, C. Unifying the Global Phylogeny and Environmental Distribution of Ammonia-Oxidizing Archaea Based on amoA Genes. *Nat. Commun.* **2018**, *9* (1), 1517. https://doi.org/10.1038/s41467-018-03861-1.
