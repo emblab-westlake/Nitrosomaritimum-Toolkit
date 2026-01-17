@@ -1,7 +1,7 @@
 # Nitrosomaritimum-Toolkit
 **An integrated toolkit for accurate detection and quantification of *Nitrosomaritimum* AOA.**
 
-![image](https://github.com/emblab-westlake/Nitrosomaritimum-Toolkit/main/img/Toolkit-figure.png)
+![image](https://github.com/emblab-westlake/Nitrosomaritimum-Toolkit/tree/main/img/Toolkit-figure.png)
 
 # 1. Refined SILVA taxonomic classifier for QIIME2
 
