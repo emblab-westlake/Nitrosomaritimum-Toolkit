@@ -1,7 +1,8 @@
-# Nitrosomaritimum-Toolbox
-**An integrated framework for detection and quantification of *Nitrosomaritimum* AOA.**
+# Nitrosomaritimum-Toolkit
+**An integrated toolkit for accurate detection and quantification of *Nitrosomaritimum* AOA.**
 
-# 1. Refined SILVA classifier for QIIME2
+
+# 1. Refined SILVA taxonomic classifier for QIIME2
 
 The SILVA classifier trained with the refined SILVA taxonomy enables identification of *Nitrosomaritimum* from 16S rRNA gene amplicon data using the QIIME2 pipeline.
 
